@@ -8,11 +8,29 @@ body{
     
 }
 #nav{
-    background-color: #222;
+    background-color: cadetblue;
 }
 #nav_Wrapper{
-    width:190px;
+    width:99ox;
     margin: 0 auto;
     text-align: left;
+}
+#nav ul{
+    list-style: none;
+    padding:0;
+    margin: 0;
+    position: relative;
+}
+#nav li{
+    display:inline-block;
+}
+#nav ul li:hover{
+    background-color: aqua;
+    
+}
+#nav ul a,visited{
+    color: aquamarine;
+    display: block;
+    padding: 10px;
     
 }
