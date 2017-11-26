@@ -1,8 +1,10 @@
 body{
+    background: url(Graduation.jpg) no-repeat;
+    background-size: cover;
     padding: 0;
     margin: 0;
     overflow-y: scroll;
-    font-family: sans-serif;
+    font-family: arial;
     font-size: 18px;
         
     
@@ -20,12 +22,15 @@ body{
 }
 
 #nav{
-    background-color: cadetblue;
+    background-color: black;
+    opacity: .75;
 }
 #nav_Wrapper{
-    width:99ox;
+    width:990x;
     margin: 0 auto;
     text-align: left;
+
+    
 }
 #nav ul{
     list-style: none;
@@ -35,9 +40,11 @@ body{
 }
 #nav li{
     display:inline-block;
+   
 }
 #nav ul li:hover{
-    background-color: skyblue;
+    background-color: blue;
+    
 }
 #nav ul li img{
      vertical-align: middle;
@@ -45,11 +52,11 @@ body{
     
 }
 #nav ul a,visited{
-    color: aquamarine;
+    color: white;
     display: block;
     padding: 15px;
     text-decoration:none;
-    
+    opacity: 4;
 }
 #nav ul li:hover ul{
     display: block;
@@ -58,8 +65,8 @@ body{
 #nav ul ul{
     display: none;
     position: absolute;
-    background-color: skyblue;
-    border: 5px solid #5F9EA0;
+    background-color: blue;
+    border: 5px solid black;
     border-top: 0;
      
 }
@@ -67,20 +74,13 @@ body{
 
 
 #nav ul ul  a,visited{
-    color: aquamarine;
+    color: white;
 }
 #nav ul ul  a:hover{
-    color: white;
+    color: black;
 }
 .back{
     margin: auto;
     background-image: url(Graduated.jpg);
-    b
-}
-div.image{
-    content: url(Graduated.jpg);
-    height: 100vh
-    width: 100vh
     
-
 }
