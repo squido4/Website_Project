@@ -1,5 +1,5 @@
 body{
-    background: url(Graduation.jpg) no-repeat;
+    background: url(About.jpg) no-repeat;
     background-size: cover;
     padding: 0;
     margin: 0;
@@ -13,14 +13,15 @@ body{
 
 
 .dis{
+    background-image: url(abouttext.jpg);
     text-align: center justify;
-    text-transform: capitalize;
     max-width: 600px;
     margin: 0 auto 20px;
+    
     letter-spacing: 1px;
     font-weight: bold;
     font-size: 20px;
-    color: black;
+    color: white;
     line-height: 1.2;
-    
+    margin-top: 40px;
 }
