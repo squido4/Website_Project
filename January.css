@@ -2,12 +2,13 @@ body{
  
 background: url(hopefully.jpg) no-repeat;
     background-size: cover;
-    padding: 6;
+    padding: 0;
     margin: 0;
     overflow-y: scroll;
     font-family:  arial;
     font-size: 18px;
-}a{text-decoration:none;
+}
+.dis a,visited{text-decoration:none;
     color: yellow;
     font-size: 20px;
     font-weight: bold;
