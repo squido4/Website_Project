@@ -24,3 +24,6 @@ body{
     line-height: 1.2;
     
 }
+
+.tabs li a.tab1 {background-color:#FF0000;}
+.tabs li a.tab2 {background-color:#FF0000;}
